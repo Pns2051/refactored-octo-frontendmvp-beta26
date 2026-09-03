@@ -1,0 +1,13 @@
+{
+  "name": "Bondhu AI — বন্ধু AI",
+  "short_name": "Bondhu AI",
+  "description": "বাংলাদেশের নিজস্ব প্রথম AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F7F5",
+  "theme_color": "#006A4E",
+  "lang": "bn",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

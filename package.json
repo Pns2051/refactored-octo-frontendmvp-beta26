@@ -1,0 +1,31 @@
+{
+  "name": "bondhu-ai-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cap:sync": "cap sync",
+    "cap:android": "cap open android",
+    "android:build": "npm run build && cap sync android"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "highlight.js": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-markdown": "latest",
+    "remark-gfm": "latest",
+    "rehype-highlight": "latest",
+    "tailwindcss": "^3.4.17",
+    "vite": "latest",
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest"
+  }
+}
